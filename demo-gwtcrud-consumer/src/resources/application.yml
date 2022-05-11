@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: demo-gwtcrud-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 1000
+    HandleService:
+      version: 1.0.0
+server:
+  port: 8085
