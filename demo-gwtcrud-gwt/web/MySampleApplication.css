@@ -16,7 +16,7 @@ h1 {
 
 /** Most GWT widgets already have a style name defined */
 .gwt-DialogBox {
-    width: 300px;
+    width: 320px;
     border-bottom-style: solid;
     border-top-style: solid;
     border-left-style: solid;
@@ -34,7 +34,13 @@ h1 {
 .dialogVPanel {
     margin: 5px;
 }
+.gwt-Label{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
 
+}
 .serverResponseLabelError {
     color: red;
 }
